@@ -1,0 +1,40 @@
+{
+  "name": "build-jbuilder",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Compile OCaml projects with jbuilder",
+  "keywords": [
+    "ocaml",
+    "jbuilder",
+    "build",
+    "linter"
+  ],
+  "repository": "https://github.com/314eter/atom-build-jbuilder",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Runs jbuilder",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "configSchema": {
+    "jbuilderPath": {
+      "title": "Path to jbuilder",
+      "type": "string",
+      "default": "jbuilder"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^4.4.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

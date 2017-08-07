@@ -1,0 +1,10 @@
+{
+  ".source.sexp": {
+    "editor": {
+      "increaseIndentPattern": "\\([^\\)]*$",
+      "decreaseIndentPattern": "^[^\\(]*\\)",
+      "commentStart": "#|",
+      "commentEnd": "|#"
+    }
+  }
+}
