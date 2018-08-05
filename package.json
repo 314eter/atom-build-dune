@@ -1,22 +1,23 @@
 {
-  "name": "build-jbuilder",
+  "name": "build-dune",
   "main": "./lib/main",
   "version": "0.1.1",
-  "description": "Compile OCaml projects with jbuilder",
+  "description": "Compile OCaml projects with jbuilder/dune",
   "keywords": [
     "ocaml",
     "jbuilder",
+    "dune",
     "build",
     "linter"
   ],
-  "repository": "https://github.com/314eter/atom-build-jbuilder",
+  "repository": "https://github.com/314eter/atom-build-dune",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
     "builder": {
-      "description": "Runs jbuilder",
+      "description": "Runs dune",
       "versions": {
         "2.0.0": "provideBuilder"
       }
@@ -24,17 +25,9 @@
   },
   "configSchema": {
     "jbuilderPath": {
-      "title": "Path to jbuilder",
+      "title": "Path to dune",
       "type": "string",
-      "default": "jbuilder"
+      "default": "dune"
     }
-  },
-  "devDependencies": {
-    "eslint": "^4.4.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
   }
 }

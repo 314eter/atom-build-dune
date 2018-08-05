@@ -1,6 +1,6 @@
-# build-jbuilder
+# build-dune
 
-_Use [jbuilder] and [build] to compile your OCaml projects in Atom._
+_Use [dune] and [build] to compile your OCaml projects in Atom._
 
 
 ## Usage
@@ -10,22 +10,22 @@ following build targets with corresponding commands.
 
 | Target    | Atom Command               |
 | --------- | -------------------------- |
-| build     | `build-jbuilder:build`     |
-| clean     | `build-jbuilder:clean`     |
-| runtest   | `build-jbuilder:runtest`   |
-| install   | `build-jbuilder:install`   |
-| uninstall | `build-jbuilder:uninstall` |
+| build     | `build-dune:build`     |
+| clean     | `build-dune:clean`     |
+| runtest   | `build-dune:runtest`   |
+| install   | `build-dune:install`   |
+| uninstall | `build-dune:uninstall` |
 
 
 ## Installation
 
-This package requires [build] and [jbuilder].
+This package requires [build] and [dune].
 
 ```sh
-apm install build build-jbuilder
-opam install jbuilder
+apm install build build-dune
+opam install dune
 ```
 
 
-[jbuilder]: https://github.com/janestreet/jbuilder
+[dune]: https://github.com/ocaml/dune
 [build]: https://atom.io/packages/build
