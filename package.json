@@ -1,7 +1,7 @@
 {
   "name": "build-dune",
   "main": "./lib/main",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Compile OCaml projects with jbuilder/dune",
   "keywords": [
     "ocaml",
