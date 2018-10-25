@@ -10,7 +10,7 @@
     "build",
     "linter"
   ],
-  "repository": "https://github.com/314eter/atom-build-dune",
+  "repository": "https://github.com/atom-ocaml/build-dune",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
