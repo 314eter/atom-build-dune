@@ -37,11 +37,15 @@
       "match": "[^\"() \\t\\n\\r;]+",
       "name": "string.unquoted.sexp"
     }, {
-      "begin": "\\(",
+      "begin": "\\( *(\\w+)",
       "end": "\\)",
       "captures": {
         "0": {
           "name": "keyword.operator.list.sexp"
+        },
+        "1": {
+          "name": "entity.name.function"
+
         }
       },
       "name": "meta.list.sexp",
