@@ -34,7 +34,7 @@
         "name": "constant.character.escape.sexp"
       }]
     }, {
-      "match": "[^\"() \\t\\n\\r;]+",
+      "match": "[^\"() %\\t\\n\\r;]+",
       "name": "string.unquoted.sexp"
     }, {
       "begin": "(\\()\\s*(\\w*)",
