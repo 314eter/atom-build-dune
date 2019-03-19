@@ -37,13 +37,13 @@
       "match": "[^\"() \\t\\n\\r;]+",
       "name": "string.unquoted.sexp"
     }, {
-      "begin": "\\( *(\\w+)",
+      "begin": "(\\()\\s*(\\w*)",
       "end": "\\)",
       "captures": {
-        "0": {
+        "1": {
           "name": "keyword.operator.list.sexp"
         },
-        "1": {
+        "2": {
           "name": "entity.name.function"
 
         }
